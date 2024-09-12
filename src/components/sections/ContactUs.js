@@ -1,5 +1,6 @@
 import React from 'react';
 import { Phone, Mail } from 'lucide-react';
+import Image from 'next/image';
 
 const ContactUs = () => {
   return (
@@ -9,9 +10,11 @@ const ContactUs = () => {
         <div className="bg-blue-800 rounded-3xl overflow-hidden shadow-xl">
           <div className="flex flex-col md:flex-row">
             <div className="md:w-1/2">
-              <img 
-                src="https://docketry.ai/wp-content/uploads/2023/03/gf.png" 
+              <Image 
+                src="/images/image.png" 
                 alt="Smiling man with laptop" 
+                width={640} 
+                height={480} 
                 className="w-full h-full object-cover"
               />
             </div>
@@ -20,7 +23,7 @@ const ContactUs = () => {
                 We help you to grow your business faster & easier.
               </h3>
               <p className="text-white mb-6">
-                Partner with us to simplify the path to your success. We'll make reaching your
+                Partner with us to simplify the path to your success. We&rsquo;ll make reaching your
                 business goals faster and easier than ever.
               </p>
               <div className="space-y-4 mb-6">
@@ -47,4 +50,3 @@ const ContactUs = () => {
 };
 
 export default ContactUs;
- 
