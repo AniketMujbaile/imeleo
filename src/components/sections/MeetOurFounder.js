@@ -37,7 +37,7 @@ const MeetOurFounder = () => {
             <div className="bg-blue-100 rounded-3xl p-6">
               <img
                 src="https://www.imeleo.com/_next/image?url=%2Fimages%2Ffounder.png&w=1080&q=75"
-                alt="Mayank Mahajan"
+                alt="Mayank Mahajan, Founder of Imeleo"
                 className="w-full rounded-2xl mb-4"
               />
               <div className="flex items-center justify-between">

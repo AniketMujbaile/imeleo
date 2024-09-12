@@ -1,6 +1,5 @@
 import React from 'react';
 import { Phone, Mail } from 'lucide-react';
-import Image from 'next/image'; // Importing Next.js Image component
 
 const ContactUs = () => {
   return (
@@ -10,20 +9,18 @@ const ContactUs = () => {
         <div className="bg-blue-800 rounded-3xl overflow-hidden shadow-xl">
           <div className="flex flex-col md:flex-row">
             <div className="md:w-1/2">
-              <Image 
+              <img 
                 src="https://docketry.ai/wp-content/uploads/2023/03/gf.png" 
                 alt="Smiling man with laptop" 
-                width={500} // Provide width and height to optimize loading
-                height={500} 
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="md:w-1/2 p-8 flex flex-col justify-center">
               <h3 className="text-4xl font-bold text-white mb-4">
-                We help you to grow your business faster &amp; easier.
+                We help you to grow your business faster & easier.
               </h3>
               <p className="text-white mb-6">
-                Partner with us to simplify the path to your success. We&#39;ll make reaching your
+                Partner with us to simplify the path to your success. We'll make reaching your
                 business goals faster and easier than ever.
               </p>
               <div className="space-y-4 mb-6">
@@ -50,3 +47,4 @@ const ContactUs = () => {
 };
 
 export default ContactUs;
+ 

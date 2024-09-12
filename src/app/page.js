@@ -6,7 +6,7 @@ import About from '@/components/sections/About';
 import MeetOurFounder from '@/components/sections/MeetOurFounder';
 import WhyUs from '@/components/sections/WhyUs';
 import ContactUs from '@/components/sections/ContactUs';
-import Footer from '@/components/sections/Footer';
+import Footer from '@/components/layout/Footer';
 
 export default function Home() {
   return (

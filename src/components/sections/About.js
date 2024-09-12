@@ -21,7 +21,7 @@ const About = () => {
           <div className="lg:w-1/2">
             <img 
               src="https://img.freepik.com/premium-photo/ai-image_590832-214.jpg" 
-              alt="Team working together" 
+              alt="Team collaboration on a project" 
               className="rounded-lg shadow-lg w-full h-96 object-cover"
             />
           </div>
